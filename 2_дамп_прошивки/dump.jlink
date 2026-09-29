@@ -1,0 +1,7 @@
+si SWD
+speed 4000
+device RP2040_M0_0
+RSetType 2
+connect
+savebin firmware_full.bin 0x10000000 0x200000
+q
